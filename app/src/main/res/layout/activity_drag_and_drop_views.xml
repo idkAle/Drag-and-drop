@@ -26,6 +26,7 @@
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/ic_baseline_arrow_upward_24"
+                android:padding="10dp"
                 android:tag="UP" />
 
             <Button
@@ -62,6 +63,7 @@
 
 
             <ImageView
+                android:background="@drawable/border"
                 android:id="@+id/holder01"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
@@ -69,6 +71,7 @@
                  />
 
             <ImageView
+                android:background="@drawable/border"
                 android:id="@+id/holder02"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
@@ -76,6 +79,7 @@
                  />
 
             <ImageView
+                android:background="@drawable/border"
                 android:id="@+id/holder03"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
@@ -83,6 +87,7 @@
                  />
 
             <ImageView
+                android:background="@drawable/border"
                 android:id="@+id/holder04"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
@@ -90,6 +95,7 @@
                  />
 
             <ImageView
+                android:background="@drawable/border"
                 android:id="@+id/holder05"
                 android:layout_width="35dp"
                 android:layout_height="match_parent"
@@ -107,7 +113,24 @@
         android:layout_weight="10"
         android:background="@color/design_default_color_secondary">
 
+        <ImageView
+            android:id="@+id/bird"
+            android:background="@drawable/animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            />
 
+        <Button
+            android:id="@+id/startStopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            />
     </LinearLayout>
+
 
 </LinearLayout>
